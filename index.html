@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+       
+        <!-- Favicon-->
+        
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+                            <li class="nav-item"><a class="nav-link"  target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">FAQ</a></li>
+                          
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="bg-dark py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-2 fw-bolder mb-2 neonText">Bem Vindo ao nosso fliperama</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                 
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </header>
+            <!-- Features section-->
+        
+            <section class="py-5" id="features">
+                <div class="container px-5 my-5 ">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Veja a nossa tabela de precos</h2><img src="apresentar.png" class="img-fluid" alt=""></div>
+                        <div class="col-lg-8" style="padding-top: 10%;">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                  <table class="table table-bordered">
+                                    <thead class="table-dark ">
+                                        <tr>
+                                        <td>Horas</td>
+                                        <td>Pong</td>
+                                        <td>Dino Game</td>
+                                        <td>Jogo da Cobra</td>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                      <td>1</td>
+                                      <td>R$3</td>
+                                      <td>R$4</td>
+                                      <td>R$6</td>
+                                    </tr>
+                                    <tr>
+                                      <td>2</td>
+                                      <td>R$6</td>
+                                      <td>R$8</td>
+                                      <td>R$12</td>
+                                    </tr>
+                                    <tr>
+                                      <td>3</td>
+                                      <td>R$9</td>
+                                      <td>R$12</td>
+                                      <td>R$18</td>
+                                    </tr>
+                                  </table>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial section-->
+            <div class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                
+                                        <h1>Ou descubra o preco aqui</h1>
+
+                             
+                                <select class="form-select" id="GameDataList" aria-label="Default select example">
+                                    <option value="Pong">Pong</option>
+                                    <option value="Jogo da Cobra">Jogo da Cobra</option>
+                                    <option value="Dino Game">Dino Game</option>
+                                </select>
+                                <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Horas:</label>
+                                    <div class="col-sm-10">
+                                      <input type="number" class="form-control" id="inputHours">
+                                    </div><br><br>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Aceita os <a href="#!" id="Termos">Termos de Uso?</a><br>
+                                        </label>
+                                    </div>
+                                    <button type="button" id="somaGameHoras" class="btn btn-primary btn-lg">Submit</button>
+                                        <script src="./javascript/scripts.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--login-->
+            <div class="container py-5 h-100 loginContainer" id="loginContainer">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                  <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                      <div class="card-body p-5 text-center">
+            
+                        <h2 class="mb-5">Iniciar sessão</h2>
+            
+                        <div class="form-outline mb-4">
+                          <input type="email" id="typeUsernameX-2" maxlength="10" class="form-control form-control-lg" />
+                          <label class="form-label" for="typeUsernameX-2">Nome de usuário</label>
+                        </div>
+            
+                        <div class="form-outline mb-4">
+                          <input type="password" maxlength="20" id="typePasswordX-2" class="form-control form-control-lg" />
+                          <label class="form-label" for="typePasswordX-2">Senha</label>
+                        </div>
+            
+                       
+            
+                        <button class="btn btn-primary btn-lg btn-block" onclick="Logar()" id="btnLogin" type="submit">Login</button>
+                        <script>
+                                    function Logar(){
+                                    alert("Bem Vindo, e boa jogatina")
+                                    document.getElementById("loginContainer").style.display = "none";
+                                    document.getElementById("esconder").style.display = "block";
+                                    }
+                        </script>
+                       
+                        
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container esconder" id="esconder">
+                
+            <!-- Blog preview section-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                            <div class="text-center">
+                                <h3>
+                                    <span id="checkJogos">Verifique</span>
+                                    <span id="checkJogos">Nossos</span>
+                                    <span id="checkJogos">Jogos</span>
+                                    <span id="checkJogos">Aqui</span><br><br><br><br><br><br><br>
+                                    <div class="scroll-more">↓</div>
+                                    </h3>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <a href="./Dinosaur-Chrome-Game-master/index.html"><img class="card-img-top" src="dinoGame.jpg" alt="..." /></a>
+                                <div class="card-body p-4">
+                                   
+                                    <a class="text-decoration-none link-dark stretched-link" href="./Dinosaur-Chrome-Game-master/index.html"><h5 class="card-title mb-3">Dino Game</h5></a>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <a href="./javascript-pong-master/index.html"><img class="card-img-top" src="pong.jpg" alt="..." /></a>
+                                <div class="card-body p-4">
+                                   
+                                    <a class="text-decoration-none link-dark stretched-link" href="./javascript-pong-master/index.html"><h5 class="card-title mb-3">Pong</h5></a>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <a href="./JavaScript-Snake-master/index.html"><img class="card-img-top" src="snakegame.png" alt="..." /></a>
+                                <div class="card-body p-4">
+                                   
+                                    <a class="text-decoration-none link-dark stretched-link" href="./JavaScript-Snake-master/index.html"><h5 class="card-title mb-3">Snake Game</h5></a>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   
+            </section> 
+                 </div>
+        </div>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Disclaimer!!! os jogos utilizados aqui não foram feitos por mim, apenas fiz o site</div></div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
